@@ -1,0 +1,138 @@
+.container {
+  width: 640px;
+  max-width: 90%;            /* ✅ auto adjust on small screens */
+  margin: auto;
+  margin-top: 100px;
+  background-color: white;
+  color: #262626;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  padding: 30px 25px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* subtle shadow */
+}
+
+.container hr {
+  border: none;
+  height: 2px;
+  background-color: #707070;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 32px;
+  color: #ff4081;
+  letter-spacing: 1px;
+}
+
+.container h2 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.container ul li {
+  display: flex;
+  align-items: center;
+  min-height: 60px;
+  padding: 10px 15px;
+  border: 1px solid #b0b0b0;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 25px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/* Hover + Tap effect */
+.container ul li:hover {
+  background-color: #f8f8f8;
+  transform: scale(1.02);
+}
+
+/* ✅ Buttons layout */
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ff4081;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #e91e63;
+  transform: scale(1.05);
+}
+
+.container .index {
+  margin: auto;
+  font-size: 18px;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* ✅ Correct & Wrong styles */
+.container .correct {
+  background: #dffff2;
+  border: 2px solid green;
+}
+
+.container .wrong {
+  background: #ffebef;
+  border: 2px solid rgb(195, 3, 3);
+}
+
+/* ✅ MOBILE RESPONSIVE DESIGN */
+@media (max-width: 480px) {
+  .container {
+    margin-top: 50px;
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .container h1 {
+    font-size: 26px;
+  }
+
+  .container h2 {
+    font-size: 18px;
+  }
+
+  .container ul li {
+    font-size: 16px;
+    min-height: 55px;
+  }
+
+  .btn {
+    padding: 8px 16px;
+    font-size: 15px;
+  }
+
+  .btn-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .container .index {
+    font-size: 16px;
+  }
+}

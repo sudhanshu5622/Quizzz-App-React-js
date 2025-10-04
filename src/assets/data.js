@@ -1,0 +1,42 @@
+export const data = [
+  {
+    Question: "Which device is required for an internet connection?",
+    option1: "Modem",
+    option2: "Router",
+    option3: "LAN Cable",
+    option4: "Pen Drive",
+    ans: 1,
+  },
+  {
+    Question: "Which of the following is an input device?",
+    option1: "Printer",
+    option2: "Keyboard",
+    option3: "Monitor",
+    option4: "Speaker",
+    ans: 2,
+  },
+  {
+    Question: "What does CPU stand for?",
+    option1: "Central Processing Unit",
+    option2: "Computer Personal Unit",
+    option3: "Central Performance Utility",
+    option4: "Control Processing Unit",
+    ans: 1,
+  },
+  {
+    Question: "Which is the brain of the computer?",
+    option1: "CPU",
+    option2: "Mouse",
+    option3: "Keyboard",
+    option4: "Monitor",
+    ans: 1,
+  },
+  {
+    Question: "Which one is not a programming language?",
+    option1: "Python",
+    option2: "HTML",
+    option3: "C++",
+    option4: "Java",
+    ans: 2,
+  },
+];

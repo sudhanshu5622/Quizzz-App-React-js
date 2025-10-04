@@ -1,0 +1,42 @@
+export const Data = [
+  {
+    Question: "💖 What makes Rishi smile the most?",
+    option1: "When I say 'I love you' ❤️",
+    option2: "When I bring her favorite chocolate 🍫",
+    option3: "When I ignore her 🙄",
+    option4: "When I send memes 😂",
+    ans: 1,
+  },
+  {
+    Question: "🌸 What’s Rishi’s secret superpower?",
+    option1: "She can make my bad day good 💫",
+    option2: "She can eat without getting full 🍕",
+    option3: "She can disappear like a magician 🎩",
+    option4: "She can stop time ⏳",
+    ans: 1,
+  },
+  {
+    Question: "💬 When Rishi says ‘I’m fine’, what does she really mean?",
+    option1: "She’s really fine 😊",
+    option2: "She’s angry 😡",
+    option3: "She wants attention 😘",
+    option4: "She’s sleepy 😴",
+    ans: 3,
+  },
+  {
+    Question: "🌹 What’s the best way to make Rishi feel special?",
+    option1: "Write her a love note 💌",
+    option2: "Buy her pizza 🍕",
+    option3: "Argue for fun 😅",
+    option4: "Go silent for a day 😶",
+    ans: 1,
+  },
+  {
+    Question: "💞 What does Rishi deserve the most?",
+    option1: "A diamond 💎",
+    option2: "Endless love 💖",
+    option3: "A long vacation 🌴",
+    option4: "A new phone 📱",
+    ans: 2,
+  },
+];

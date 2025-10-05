@@ -50,7 +50,7 @@ const Quiz = () => {
 
   return (
     <div className="container">
-      <h1>Quiz App</h1>
+      <h1>Quiz App for My sweetHeart Rashi Love with me</h1>
       <hr />
       <h2>{index + 1}. {question.Question}</h2>
 

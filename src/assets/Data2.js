@@ -1,6 +1,6 @@
 export const Data = [
   {
-    Question: "💖 What makes Rishi smile the most?",
+    Question: "💖 What makes Raishi smile the most?",
     option1: "When I say 'I love you' ❤️",
     option2: "When I bring her favorite chocolate 🍫",
     option3: "When I ignore her 🙄",
@@ -8,7 +8,7 @@ export const Data = [
     ans: 1,
   },
   {
-    Question: "🌸 What’s Rishi’s secret superpower?",
+    Question: "🌸 What’s Raishi’s secret superpower?",
     option1: "She can make my bad day good 💫",
     option2: "She can eat without getting full 🍕",
     option3: "She can disappear like a magician 🎩",
@@ -16,7 +16,7 @@ export const Data = [
     ans: 1,
   },
   {
-    Question: "💬 When Rishi says ‘I’m fine’, what does she really mean?",
+    Question: "💬 When Raishi says ‘I’m fine’, what does she really mean?",
     option1: "She’s really fine 😊",
     option2: "She’s angry 😡",
     option3: "She wants attention 😘",
@@ -24,7 +24,7 @@ export const Data = [
     ans: 3,
   },
   {
-    Question: "🌹 What’s the best way to make Rishi feel special?",
+    Question: "🌹 What’s the best way to make Raishi feel special?",
     option1: "Write her a love note 💌",
     option2: "Buy her pizza 🍕",
     option3: "Argue for fun 😅",
@@ -32,7 +32,7 @@ export const Data = [
     ans: 1,
   },
   {
-    Question: "💞 What does Rishi deserve the most?",
+    Question: "💞 What does Raishi deserve the most?",
     option1: "A diamond 💎",
     option2: "Endless love 💖",
     option3: "A long vacation 🌴",

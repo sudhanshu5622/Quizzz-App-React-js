@@ -1,23 +1,26 @@
 import React, { useState } from 'react';
 import './Quiz.css';
-import { Data } from '../assets/Data2'; // make sure your file exports "Data"
+import { data } from '../assets/data'; // make sure your file exports "Data"
 
 const Quiz = () => {
   const [index, setIndex] = useState(0);
-  const [question, setQuestion] = useState(Data[index]);
+  const [question, setQuestion] = useState(data[index]);
   const [lock, setLock] = useState(false);
-  const [score, setScore] = useState(0);
+  const [score, setScore] = useState();
+  
+
+
 
   const handleNext = () => {
     const allOptions = document.querySelectorAll("li");
     allOptions.forEach((li) => li.classList.remove("correct", "wrong"));
 
-    if (index + 1 < Data.length) {
+    if (index + 1 < data.length) {
       setIndex(index + 1);
-      setQuestion(Data[index + 1]);
+      setQuestion(data[index + 1]);
       setLock(false);
     } else {
-      alert("Quiz Completed! 🎉 Your Score: " + score + "/" + Data.length);
+      alert("Quiz Completed! 🎉 Your Score: " + score + "/" + data.length);
     }
   };
 
@@ -27,7 +30,7 @@ const Quiz = () => {
 
     if (index > 0) {
       setIndex(index - 1);
-      setQuestion(Data[index - 1]);
+      setQuestion(data[index - 1]);
       setLock(false);
     } else {
       alert("You're already on the first question! 🥰");
@@ -50,7 +53,7 @@ const Quiz = () => {
 
   return (
     <div className="container">
-      <h1>Quiz App for My sweetHeart Rashi Love with me</h1>
+      <h1>Quiz App</h1>
       <hr />
       <h2>{index + 1}. {question.Question}</h2>
 
@@ -70,7 +73,7 @@ const Quiz = () => {
         </button>
       </div>
 
-      <div className="index">{index + 1} of {Data.length} Questions</div>
+      <div className="index">{index + 1} of {data.length} Questions</div>
     </div>
   );
 };

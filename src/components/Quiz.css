@@ -1,5 +1,5 @@
 .container {
-  width: 640px;
+  width: 540px;
   max-width: 90%;            /* ✅ auto adjust on small screens */
   margin: auto;
   margin-top: 100px;
@@ -29,8 +29,8 @@
 }
 
 .container h2 {
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 500;
   line-height: 1.4;
 }
 
@@ -47,7 +47,7 @@
   border: 1px solid #b0b0b0;
   border-radius: 8px;
   margin-bottom: 15px;
-  font-size: 25px;
+  font-size: 15px;
   cursor: pointer;
   transition: 0.3s ease;
 }
@@ -136,3 +136,49 @@
     font-size: 16px;
   }
 }
+/* .footer {
+  text-align: center;
+  margin-top: 5%;
+  padding: 150px;
+  background-color: #090909;
+  /* border-top: 1px solid #fffdfd; */
+  /* font-size: 14px; */
+  /* color: #fffcfc;
+}
+
+.footer p {
+  margin: 5px 0;
+} */ 
+ .footer {
+  text-align: center;
+  margin-top: 5%;
+  padding: 40px 20px; /* reduced padding for better layout */
+  background-color: #090909;
+  font-size: 14px;
+  color: #fffcfc;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+/* Social icons container */
+.social-links {
+  margin-top: 15px;
+}
+
+.social-links a {
+  color: #fffcfc;
+  margin: 0 10px;
+  font-size: 20px;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #ff6f61; /* change color on hover */
+}
+
+
+
+
